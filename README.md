@@ -22,3 +22,14 @@ I use a 2013 iMac running Yosemite (10.10.5), Node v5.8.0, npm v3.7.3, Yeoman v.
 4. run `gulp serve` to preview and watch for changes
 5. run `gulp` to build your webapp for production (*note: this is when the uncss task takes place*)
 6. run `gulp serve:dist` to preview the production build
+
+##Confirm that uncss is working as expected##
+
+```
+.no-way-jose {
+  color: red;
+  .blacklivesmatter {
+    background-color: #666;
+  }
+}
+```
