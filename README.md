@@ -25,7 +25,7 @@ I use a 2013 iMac running Yosemite (10.10.5), Node v5.8.0, npm v3.7.3, Yeoman v.
 
 ##Confirm that uncss is working as expected##
 
-```
+```scss
 .no-way-jose {
   color: red;
   .blacklivesmatter {
