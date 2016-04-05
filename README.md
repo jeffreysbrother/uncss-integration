@@ -25,6 +25,8 @@ I use a 2013 iMac running Yosemite (10.10.5), Node v5.8.0, npm v3.7.3, Yeoman v.
 
 ##Confirm that uncss is working as expected##
 
+Within `app/styles/main.scss` you will find a bit of *unused* css. In other words, there is no HTML that instantiates these classes:
+
 ```scss
 .no-way-jose {
   color: red;
@@ -33,3 +35,5 @@ I use a 2013 iMac running Yosemite (10.10.5), Node v5.8.0, npm v3.7.3, Yeoman v.
   }
 }
 ```
+
+If one of these classes is added to the markup, and the `grunt` command is run (populating the dist directory with updated code), you should be able to see it when you view page source and click on the css file linked in the head of the document.
