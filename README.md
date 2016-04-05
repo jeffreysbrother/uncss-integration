@@ -36,4 +36,4 @@ Within `app/styles/main.scss` you will find a bit of *unused* css. In other word
 }
 ```
 
-If one of these classes is added to the markup, and the `grunt` command is run (populating the dist directory with updated code), you should be able to see it when you view page source and click on the css file linked in the head of the document.
+If one of these classes is added to the markup, and the `gulp` command is run (populating the dist directory with updated code), you should be able to see it when you view page source and click on the css file linked in the head of the document.
