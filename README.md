@@ -38,4 +38,20 @@ Within `app/styles/main.scss` you will find a bit of *unused* css. In other word
 
 By default, the uncss plugin will strip these rules from the outputted CSS file (main.css); run `gulp` and then inspect dist/styles/main.css. This file should be small and the above rules should be nowhere to be found.
 
-However, if one of these classes is added to the markup, and the `gulp` command is run again (re-populating the dist directory with updated code), you should be able to see that class when you inspect main.css (or when you run `gulp serve:dist`,view page source, and click on the css file linked in the head of the document).
+However, if one of these classes is added to the markup, and the `gulp` command is run again (re-populating the dist directory with updated code), you should be able to see that class when you inspect main.css (or when you run `gulp serve:dist`, view page source, and click on the css file linked in the head of the document).
+
+##Comments/Questions##
+
+Compared to my first attempt to create a Grunt scaffolding tool with uncss capability, this lightly modified Yeoman 'pseudo-generator' includes the following *additional* tools:
+
+* HTML5 Boilerplate
+* Modernizr
+* CSS autoprefixing
+* BrowserSync
+* Linting for JS
+* Babel support
+* Mocha.js test framework
+
+Regarding the above tools, the following question arises: Is there anything in this list we don't need, and is there any additional functionality that we need to add?
+
+A similar question can be asked about the default bower_components and the default file structure.
