@@ -12,6 +12,8 @@ To test, you must have the necessary tools installed and then carry out the step
 * [npm](https://www.npmjs.com/)
 * [generator-webapp](https://github.com/yeoman/generator-webapp) -- the steps listed here will also have you install Yeoman, gulp-cli, and Bower.
 
+I use a 2013 iMac running Yosemite (10.10.5), Node v5.8.0, npm v3.7.3, Yeoman v.1.7.0, Grunt v3.9.0 (cli version 3.9.1), and Bower v1.7.7.
+
 ##Steps##
 
 1. clone this repo
