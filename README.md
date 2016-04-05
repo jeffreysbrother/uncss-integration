@@ -44,7 +44,7 @@ However, if one of these classes is added to the markup, and the `gulp` command 
 
 ##Comments/Questions##
 
-Compared to my first attempt to create a Grunt scaffolding tool with uncss capability, this lightly modified Yeoman 'pseudo-generator' with Gulp includes the following *additional* tools:
+Compared to my first attempt to create a Grunt scaffolding tool with uncss capability, this lightly modified Yeoman 'pseudo-generator' with Gulp includes the following *additional* tools and features:
 
 * HTML5 Boilerplate
 * Modernizr
@@ -53,6 +53,7 @@ Compared to my first attempt to create a Grunt scaffolding tool with uncss capab
 * Linting for JS
 * Babel support
 * Mocha.js test framework
+* the ability to load plugins dynamically with gulp-load-plugins
 
 Regarding the above tools, the following question arises: Is there anything in this list we don't need, and is there any additional functionality that we need to add?
 
