@@ -44,7 +44,7 @@ However, if one of these classes is added to the markup, and the `gulp` command 
 
 ##Comments/Questions##
 
-Compared to my first attempt to create a Grunt scaffolding tool with uncss capability, this lightly modified Yeoman 'pseudo-generator' includes the following *additional* tools:
+Compared to my first attempt to create a Grunt scaffolding tool with uncss capability, this lightly modified Yeoman 'pseudo-generator' with Gulp includes the following *additional* tools:
 
 * HTML5 Boilerplate
 * Modernizr
