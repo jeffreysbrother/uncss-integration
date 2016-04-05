@@ -36,6 +36,6 @@ Within `app/styles/main.scss` you will find a bit of *unused* css. In other word
 }
 ```
 
-By default, the uncss plugin will strip these rules from the outputted CSS file (main.css); run `gulp` and then inspect dist/styles/main.css. This file should be small and the above rules nowhere to be found.
+By default, the uncss plugin will strip these rules from the outputted CSS file (main.css); run `gulp` and then inspect dist/styles/main.css. This file should be small and the above rules should be nowhere to be found.
 
-However, if one of these classes is added to the markup, and the `gulp` command is run again (re-populating the dist directory with updated code), you should be able to see it when you inspect main.css (or when you run `gulp serve:dist`,view page source, and click on the css file linked in the head of the document).
+However, if one of these classes is added to the markup, and the `gulp` command is run again (re-populating the dist directory with updated code), you should be able to see that class when you inspect main.css (or when you run `gulp serve:dist`,view page source, and click on the css file linked in the head of the document).
